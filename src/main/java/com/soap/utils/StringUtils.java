@@ -44,5 +44,18 @@ public class StringUtils {
 		}
 		return value;
 	}
+	
+	public static Boolean toBoolean(String booleanString){
+		Boolean retValue=null;
+		if(booleanString != null && !"".equals(booleanString)){
+			if("true".equalsIgnoreCase(booleanString)){
+				retValue = true;
+			}else if("false".equalsIgnoreCase(booleanString)){
+				retValue = false;
+			}
+			
+		}
+		return retValue;
+	}
 
 }

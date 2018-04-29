@@ -4,6 +4,7 @@
 package com.soap.consumer.factory;
 
 import com.soap.consumer.operation.AddCommentOperation;
+import com.soap.consumer.operation.GetBookingList;
 import com.soap.consumer.operation.GetCompanies;
 import com.soap.consumer.operation.SoapOperation;
 
@@ -13,16 +14,16 @@ import com.soap.consumer.operation.SoapOperation;
  */
 public class OperationFactory {
 	enum operations {
-		AddComment, GetCompanies
+		AddComment, GetCompanies, GetBookingList
 	};
 
 	public static SoapOperation newInstanceForGet(String operation) {
 		SoapOperation soapOperation = null;
 
 		if (operation.equalsIgnoreCase(operations.GetCompanies.toString())) {
-			// generation of the SoapOperationInstance
 			soapOperation = new GetCompanies();
-
+		} else if(operation.equalsIgnoreCase(operations.GetBookingList.toString())) {
+			soapOperation = new GetBookingList();
 		}
 		return soapOperation;
 	}
