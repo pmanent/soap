@@ -7,6 +7,7 @@ import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -14,7 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.soap.consumer.AvantioSoapClientProperties;
-import com.soap.consumer.PostSoapClient;
+import com.soap.consumer.AvantioPostSoapConsumer;
 import com.soap.controller.support.CustomServiceGateway;
 import com.soap.utils.GsonUtils;
 
@@ -44,11 +45,11 @@ public class SopToResController {
 		    method = RequestMethod.POST, 
 		    produces = "application/json")
 	public String postOperation(@PathVariable String operation,
-			   @RequestParam Map<String,String> allRequestParams){
-		
-		PostSoapClient client = new PostSoapClient(AvantioSoapClientProperties.END_POINT,
+								@RequestBody Map<String,String> allRequestParams){
+		AvantioPostSoapConsumer client = new AvantioPostSoapConsumer(AvantioSoapClientProperties.END_POINT,
 											       operation,
-												   allRequestParams);
+												   allRequestParams,
+												   gateway);
 		
 		return GsonUtils.toJson(client.consumeSoap());
 

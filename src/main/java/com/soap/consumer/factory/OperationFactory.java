@@ -27,7 +27,7 @@ public class OperationFactory {
 	}
 	public static SoapOperation newInstanceForPost(String operation){
 		SoapOperation soapOperation = null;
-		if(operation.equals(operations.AddComment)){
+		if(operation.equalsIgnoreCase(operations.AddComment.toString())){
 			//generation of the SoapOperationInstance
 			soapOperation = new AddCommentOperation();
 			

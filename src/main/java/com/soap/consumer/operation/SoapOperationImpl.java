@@ -55,9 +55,10 @@ public abstract class SoapOperationImpl implements SoapOperation{
 	
 	public Credentials retrieveCredentials(){
 		Credentials credentials = new Credentials();
-		credentials.setLanguage(this.params.get("Language"));
-		credentials.setUserName(this.params.get("UserName"));
-		credentials.setPassword(this.params.get("Password"));
+		;
+		credentials.setLanguage(this.params.get(SoapOperationProperties.LANGUAGE_PARAM_LABEL));
+		credentials.setUserName(this.params.get(SoapOperationProperties.USERNAME_PARAM_LABEL));
+		credentials.setPassword(this.params.get(SoapOperationProperties.PASSWORD_PARAM_LABEL));
 		return credentials;
 	}
 

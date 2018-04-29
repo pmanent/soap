@@ -7,6 +7,7 @@ public class SoapOperationProperties {
 	public static final Object AGENT_LOCALIZATOR_PARAM_LABEL = "AgentLocalizator";
 	public static final Object BOOKING_CODE_PARAM_LABEL = "BookingCode";
 	public static final Object LOCALIZATOR_PARAM_LABEL = "Localizator";
+	public static final Object LANGUAGE_PARAM_LABEL = "Language";
 	public SoapOperationProperties() {
 		// TODO Auto-generated constructor stub
 	}
