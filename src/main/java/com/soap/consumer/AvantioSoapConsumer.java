@@ -7,6 +7,7 @@ import java.util.Map;
 
 import com.soap.consumer.factory.OperationFactory;
 import com.soap.consumer.operation.SoapOperation;
+import com.soap.controller.support.CustomServiceGateway;
 
 /**
  * @author peremanent
@@ -19,11 +20,13 @@ public class AvantioSoapConsumer implements SoapConsumer {
 	 */
 	private SoapOperation operation;
 	
-	public AvantioSoapConsumer(String endpoint,String operation,Map<String,String> allRequestParams) {
+	public AvantioSoapConsumer(String endpoint,String operation,Map<String,String> allRequestParams,
+			CustomServiceGateway gateway) {
 		// TODO Auto-generated constructor stub
 		this.operation = OperationFactory.newInstanceForGet(operation);
 		this.operation.setEndPoint(endpoint);
 		this.operation.setParams(allRequestParams);
+		this.operation.setGateway(gateway);
 	}
 	
 	public Object consumeSoap(){

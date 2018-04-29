@@ -4,6 +4,7 @@
 package com.soap.consumer.factory;
 
 import com.soap.consumer.operation.AddCommentOperation;
+import com.soap.consumer.operation.GetCompanies;
 import com.soap.consumer.operation.SoapOperation;
 
 /**
@@ -11,26 +12,27 @@ import com.soap.consumer.operation.SoapOperation;
  *
  */
 public class OperationFactory {
-	enum operations{AddComment};
+	enum operations {
+		AddComment, GetCompanies
+	};
 
-	/**
-	 * 
-	 */
-	public OperationFactory() {
-		// TODO Auto-generated constructor stub
-	}
-	
-	public static SoapOperation newInstanceForGet(String operation){
+	public static SoapOperation newInstanceForGet(String operation) {
 		SoapOperation soapOperation = null;
-		
+
+		if (operation.equalsIgnoreCase(operations.GetCompanies.toString())) {
+			// generation of the SoapOperationInstance
+			soapOperation = new GetCompanies();
+
+		}
 		return soapOperation;
 	}
-	public static SoapOperation newInstanceForPost(String operation){
+
+	public static SoapOperation newInstanceForPost(String operation) {
 		SoapOperation soapOperation = null;
-		if(operation.equalsIgnoreCase(operations.AddComment.toString())){
-			//generation of the SoapOperationInstance
+		if (operation.equalsIgnoreCase(operations.AddComment.toString())) {
+			// generation of the SoapOperationInstance
 			soapOperation = new AddCommentOperation();
-			
+
 		}
 		return soapOperation;
 	}

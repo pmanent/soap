@@ -11,7 +11,7 @@ public class StringUtils {
 		String value="";
 		try {
 			Properties prop=loadProperties("/soap.properties");
-			loadKeyFromProperties(prop,key);
+			value = loadKeyFromProperties(prop,key);
 		} catch (IOException e) {
 			
 		}

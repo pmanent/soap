@@ -6,6 +6,8 @@ package com.soap.consumer.operation;
 import java.util.HashMap;
 import java.util.Map;
 
+import javax.xml.bind.JAXBElement;
+
 import org.springframework.ws.client.core.support.WebServiceGatewaySupport;
 import org.springframework.ws.soap.client.core.SoapActionCallback;
 
@@ -49,13 +51,12 @@ public abstract class SoapOperationImpl implements SoapOperation{
 		response = gateway.getWebServiceTemplate().marshalSendAndReceive(this.endPoint,
 				this.request,
 				new SoapActionCallback(this.operation));
-		
-		return response;
+		return ((JAXBElement)response).getValue();
 	}
 	
 	public Credentials retrieveCredentials(){
 		Credentials credentials = new Credentials();
-		;
+		
 		credentials.setLanguage(this.params.get(SoapOperationProperties.LANGUAGE_PARAM_LABEL));
 		credentials.setUserName(this.params.get(SoapOperationProperties.USERNAME_PARAM_LABEL));
 		credentials.setPassword(this.params.get(SoapOperationProperties.PASSWORD_PARAM_LABEL));

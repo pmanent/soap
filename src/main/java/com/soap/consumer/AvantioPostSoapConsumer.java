@@ -12,7 +12,8 @@ public class AvantioPostSoapConsumer implements SoapConsumer {
 	 */
 	private SoapOperation operation;
 
-	public AvantioPostSoapConsumer(String endpoint, String operation, Map<String, String> allRequestParams, CustomServiceGateway gateway) {
+	public AvantioPostSoapConsumer(String endpoint, String operation, Map<String, String> allRequestParams,
+			CustomServiceGateway gateway) {
 		this.operation = OperationFactory.newInstanceForPost(operation);
 		this.operation.setEndPoint(endpoint);
 		this.operation.setParams(allRequestParams);
