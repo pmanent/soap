@@ -13,6 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.ws.soap.client.SoapFaultClientException;
 
 import com.soap.controller.support.CustomServiceGateway;
+import com.soap.utils.StringUtils;
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 public class AvantioPostSoapConsumerTest {
@@ -43,8 +44,8 @@ public class AvantioPostSoapConsumerTest {
 	private Map<String,String> retrieveRequestMap(){
 		Map<String,String> params = new HashMap<String,String>();
 		params.put("Language", "ES");
-		params.put("UserName", "sssss");
-		params.put("Password", "ssssss");
+		params.put("UserName", StringUtils.loadStringKeyFile(AvantioSoapClientProperties.USERNAME_KEY_PROPERTIES));
+		params.put("Password", StringUtils.loadStringKeyFile(AvantioSoapClientProperties.PASSWORD_KEY_PROPERTIES));
 		params.put("Comments", "Comentario de calidad!");
 		params.put("BookingCode", null);
 		params.put("Localizator", "1");

@@ -16,6 +16,7 @@ import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import com.soap.consumer.AvantioSoapClientProperties;
+import com.soap.utils.StringUtils;
 
 /**
  * @author peremanent
@@ -124,8 +125,8 @@ public class AddCommentOperationTest {
 	private Map<String,String> retrieveRequestMap(){
 		Map<String,String> params = new HashMap<String,String>();
 		params.put("Language", "ES");
-		params.put("UserName", "pere");
-		params.put("Password", "pere");
+		params.put("UserName", StringUtils.loadStringKeyFile(AvantioSoapClientProperties.USERNAME_KEY_PROPERTIES));
+		params.put("Password", StringUtils.loadStringKeyFile(AvantioSoapClientProperties.PASSWORD_KEY_PROPERTIES));
 		params.put("Comments", "Comentario de calidad!");
 
 		return params;

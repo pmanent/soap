@@ -12,6 +12,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import com.soap.consumer.AvantioSoapClientProperties;
 import com.soap.controller.support.CustomServiceGateway;
+import com.soap.utils.StringUtils;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
@@ -43,8 +44,9 @@ public class AddCommentOperationFunctionalTest {
 	private Map<String,String> retrieveRequestMap(){
 		Map<String,String> params = new HashMap<String,String>();
 		params.put("Language", "ES");
-		params.put("UserName", "sssss");
-		params.put("Password", "ssssss");
+		
+		params.put("UserName", StringUtils.loadStringKeyFile(AvantioSoapClientProperties.USERNAME_KEY_PROPERTIES));
+		params.put("Password", StringUtils.loadStringKeyFile(AvantioSoapClientProperties.PASSWORD_KEY_PROPERTIES));
 		params.put("Comments", "Comentario de calidad!");
 
 		return params;
