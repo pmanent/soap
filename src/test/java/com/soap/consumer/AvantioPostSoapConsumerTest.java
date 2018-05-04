@@ -10,6 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.ws.soap.SoapMessage;
+import org.springframework.ws.soap.SoapMessageCreationException;
 import org.springframework.ws.soap.client.SoapFaultClientException;
 
 import com.soap.controller.support.CustomServiceGateway;
@@ -38,6 +40,7 @@ public class AvantioPostSoapConsumerTest {
 		}
 		Assert.assertTrue("Response must be not null", exception!=null);
 	}
+	
 	private Map<String,String> retrieveRequestMap(){
 		Map<String,String> params = new HashMap<String,String>();
 		params.put("Language", "ES");

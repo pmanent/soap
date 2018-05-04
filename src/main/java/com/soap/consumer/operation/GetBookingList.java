@@ -3,12 +3,9 @@
  */
 package com.soap.consumer.operation;
 
-import java.util.GregorianCalendar;
 import java.util.Map;
 
 import javax.validation.ValidationException;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.datatype.XMLGregorianCalendar;
 
 import com.soap.consumer.domain.BookingListCriteria;
