@@ -9,12 +9,10 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 public class BadRequestException extends ValidationException{
 
 	public BadRequestException() {
-		// TODO Auto-generated constructor stub
 	}
 
-	public BadRequestException(String string) {
-		// TODO Auto-generated constructor stub
-		super(string);
+	public BadRequestException(String message) {
+		super(message);
 	}
 
 }

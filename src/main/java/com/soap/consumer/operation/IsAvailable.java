@@ -14,6 +14,7 @@ import com.soap.consumer.domain.Credentials;
 import com.soap.consumer.domain.CredentialsNoLanguage;
 import com.soap.consumer.domain.IsAvailableRQ;
 import com.soap.consumer.domain.Occupants;
+import com.soap.consumer.exception.BadRequestException;
 import com.soap.utils.DateUtils;
 import com.soap.utils.StringUtils;
 
@@ -80,21 +81,21 @@ public class IsAvailable extends SoapOperationImpl {
 		String userCode = params.get(SoapOperationProperties.USER_CODE_PARAM_LABEL);
 
 		if (username == null) {
-			throw new ValidationException("UserName is required");
+			throw new BadRequestException("UserName is required");
 		} else if (password == null) {
-			throw new ValidationException("Password is required");
+			throw new BadRequestException("Password is required");
 		} else if (accommodationCode == null) {
-			throw new ValidationException("Accommodation code is required");
+			throw new BadRequestException("Accommodation code is required");
 		} else if (dateFrom == null) {
-			throw new ValidationException("Date from is required");
+			throw new BadRequestException("Date from is required");
 		} else if (dateTo == null) {
-			throw new ValidationException("Date to is required");
+			throw new BadRequestException("Date to is required");
 		} else if (adults == null) {
-			throw new ValidationException("Adults number is required");
+			throw new BadRequestException("Adults number is required");
 		} else if (loginGA == null) {
-			throw new ValidationException("LoginGA is required");
+			throw new BadRequestException("LoginGA is required");
 		} else if (userCode == null) {
-			throw new ValidationException("UserCode is required");
+			throw new BadRequestException("UserCode is required");
 		}
 	}
 
