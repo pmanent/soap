@@ -12,6 +12,7 @@ import com.soap.consumer.domain.Credentials;
 import com.soap.consumer.domain.CredentialsNoLanguage;
 import com.soap.consumer.domain.GetCompaniesRQ;
 import com.soap.consumer.domain.Localizer;
+import com.soap.consumer.exception.BadRequestException;
 
 /**
  * @author peremanent
@@ -48,9 +49,9 @@ public class GetCompanies extends SoapOperationImpl {
 		String password = params.get(SoapOperationProperties.PASSWORD_PARAM_LABEL);
 
 		if (username == null) {
-			throw new ValidationException("UserName is required");
+			throw new BadRequestException("UserName is required");
 		} else if (password == null) {
-			throw new ValidationException("Password is required");
+			throw new BadRequestException("Password is required");
 		}
 	}
 
