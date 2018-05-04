@@ -20,6 +20,10 @@ import com.soap.consumer.AvantioPostSoapConsumer;
 import com.soap.controller.support.CustomServiceGateway;
 import com.soap.utils.GsonUtils;
 
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiImplicitParams;
+import io.swagger.annotations.ApiOperation;
+
 /**
  * @author peremanent
  *
@@ -60,6 +64,16 @@ public class SopToResController {
 		
 		return GsonUtils.toJson(client.consumeSoap());
 
+	}
+	@ApiOperation(value = "getGreeting", nickname = "getGreeting")
+	@RequestMapping(value = "/test", 
+		    method = RequestMethod.GET, 
+		    produces = "application/json")
+	@ApiImplicitParams({
+        @ApiImplicitParam(name = "name", value = "User's name", required = false, dataType = "string", paramType = "query", defaultValue="Niklas")
+      }) 
+	public String test(){
+		return GsonUtils.toJson("test");
 	}
 
 }
