@@ -15,8 +15,11 @@ public class SoapOperationProperties {
 	public static final Object FILTER_PARAM_LABEL = "Filter";
 	public static final Object LASTUPDATEDATE_PARAM_LABEL = "LastUpdatedDate";
 	public static final Object RETURN_INQUIRIES_PARAM_LABEL = "ReturnInquiries";
+	public static final Object RETURN_ONREQUEST_PARAM_LABEL = "ReturnOnRequest";
 	public static final Object ACCOMMODATION_CODE_PARAM_LABEL = "AccommodationCode";
+	public static final Object RETURN_ACCOMMODATION_UNITS_CODE_PARAM_LABEL = "ReturnAccommodationUnits";
 	public static final Object ADULTS_PARAM_LABEL = "Adults";
+	public static final Object PAGE_PARAM_LABEL = "Page";
 	public static final Object CHILD1AGE_PARAM_LABEL = "Child1_Age";
 	public static final Object CHILD2AGE_PARAM_LABEL = "Child2_Age";
 	public static final Object CHILD3AGE_PARAM_LABEL = "Child3_Age";
