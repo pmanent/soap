@@ -7,6 +7,7 @@ import com.soap.consumer.operation.AddCommentOperation;
 import com.soap.consumer.operation.GetBookingList;
 import com.soap.consumer.operation.GetCompanies;
 import com.soap.consumer.operation.IsAvailable;
+import com.soap.consumer.operation.GetAccommodationStatus;
 import com.soap.consumer.operation.SoapOperation;
 
 /**
@@ -15,7 +16,7 @@ import com.soap.consumer.operation.SoapOperation;
  */
 public class OperationFactory {
 	enum operations {
-		AddComment, GetCompanies, GetBookingList, IsAvailable
+		AddComment, GetCompanies, GetBookingList, IsAvailable, GetAccommodationStatus
 	};
 
 	public static SoapOperation newInstanceForGet(String operation) {
@@ -27,6 +28,8 @@ public class OperationFactory {
 			soapOperation = new GetBookingList();
 		} else if(operation.equalsIgnoreCase(operations.IsAvailable.toString())) {
 			soapOperation = new IsAvailable();
+		} else if(operation.equalsIgnoreCase(operations.GetAccommodationStatus.toString())) {
+			soapOperation = new GetAccommodationStatus();
 		}
 		return soapOperation;
 	}
