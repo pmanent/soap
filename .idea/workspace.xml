@@ -2,238 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1cc078c-0f4d-4b04-acc7-357a09d2fdbf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/soapToRestClient/soap/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/soapToRestClient/soap/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/soap/utils/package-info.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/Application.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Accommodation.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Accommodation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationAvail.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationAvail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationAvailList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationAvailList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationCodeList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationCodeList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationCriteria.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationData.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationDatesCriteria.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationDatesCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationOccupantsDatesCriteria.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationOccupantsDatesCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationRates.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationRates.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationRatesList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationRatesList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationState.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationStateList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AccommodationStateList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AddCommentRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AddCommentRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AdultsAndChildsCapacity.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AdultsAndChildsCapacity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AirConditioned.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AirConditioned.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AllAccommodationList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AllAccommodationList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Area.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Area.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AreaDist.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AreaDist.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AreaLogicDist.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AreaLogicDist.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AreaLogicList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AreaLogicList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Availabilities.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Availabilities.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AvailabilityPeriod.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AvailabilityPeriod.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Available.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Available.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AvailableCriteria.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/AvailableCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/BedClothes.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/BedClothes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/BookingData.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/BookingData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/BookingDataResponse.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/BookingDataResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/BookingListCriteria.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/BookingListCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/BookingPrice.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/BookingPrice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/BooleanResponse.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/BooleanResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CancelBookingRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CancelBookingRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CancelBookingRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CancelBookingRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CancellationPolicies.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CancellationPolicies.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CancellationPolicyItem.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CancellationPolicyItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CancellationPolicyList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CancellationPolicyList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Change.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Change.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Changes.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Changes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ChangesCriteria.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ChangesCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ChangesList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ChangesList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CheckInCheckOutInfo.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CheckInCheckOutInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CheckInRule.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CheckInRule.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CheckInRules.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CheckInRules.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/City.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/City.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CityList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CityList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ClientData.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ClientData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CommonServices.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CommonServices.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ComplexFeature.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ComplexFeature.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Cot.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Cot.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Country.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Country.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CountryList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CountryList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CountryLogic.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CountryLogic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CountryLogicList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CountryLogicList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Credentials.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Credentials.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CredentialsNoLanguage.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CredentialsNoLanguage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CreditCardData.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CreditCardData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Criteria.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CriteriaAccommodation.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CriteriaAccommodation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CriteriaAccommodationData.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CriteriaAccommodationData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CriteriaAccommodationList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CriteriaAccommodationList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CriteriaAccommodationPages.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/CriteriaAccommodationPages.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/DaysOfApplication.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/DaysOfApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Deposit.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Deposit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Description.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Description.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/DescriptionMultiLanguage.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/DescriptionMultiLanguage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Discount.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Discount.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Discounts.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Discounts.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Distance.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Distance.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/DistanceTo.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/DistanceTo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Distances.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Distances.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Distribution.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Distribution.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/District.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/District.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/DistrictList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/DistrictList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Error.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Error.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ErrorList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ErrorList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ExternalAccommodation.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ExternalAccommodation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ExternalAccommodationList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ExternalAccommodationList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ExternalCredentials.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ExternalCredentials.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ExternalIDsCriteria.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ExternalIDsCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Extra.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Extra.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ExtraBeds.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ExtraBeds.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Extras.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Extras.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ExtrasAndServices.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ExtrasAndServices.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ExtrasSummary.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ExtrasSummary.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ExtrasSummaryItem.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ExtrasSummaryItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ExtrasSummaryList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ExtrasSummaryList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/FailedChange.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/FailedChange.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/FailedChanges.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/FailedChanges.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/FeaturedAccommodation.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/FeaturedAccommodation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/FeaturedAccommodationsCriteria.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/FeaturedAccommodationsCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Features.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Features.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/FeaturesHotel.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/FeaturesHotel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/FeaturesList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/FeaturesList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/FinalClean.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/FinalClean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GeneralDate.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GeneralDate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GeographicAreasCriteria.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GeographicAreasCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAccommodationDataRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAccommodationDataRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAccommodationDataRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAccommodationDataRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAccommodationDescriptionsRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAccommodationDescriptionsRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAccommodationDescriptionsRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAccommodationDescriptionsRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAccommodationKindsRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAccommodationKindsRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAccommodationKindsRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAccommodationKindsRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAccommodationListRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAccommodationListRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAccommodationListRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAccommodationListRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAccommodationStatusRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAccommodationStatusRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAccommodationStatusRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAccommodationStatusRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAllAccommodationListRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAllAccommodationListRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAllAccommodationListRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAllAccommodationListRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAvailabilitiesRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAvailabilitiesRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAvailabilitiesRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetAvailabilitiesRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetBookingListRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetBookingListRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetBookingListRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetBookingListRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetBookingPriceRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetBookingPriceRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetBookingPriceRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetBookingPriceRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetBookingRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetBookingRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetBookingRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetBookingRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetChangesRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetChangesRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetChangesRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetChangesRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetCompaniesRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetCompaniesRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetCompaniesRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetCompaniesRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetDiscountsSupplementsRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetDiscountsSupplementsRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetDiscountsSupplementsRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetDiscountsSupplementsRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetExternalIDsRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetExternalIDsRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetExternalIDsRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetExternalIDsRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetFeaturedAccommodationsRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetFeaturedAccommodationsRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetFeaturedAccommodationsRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetFeaturedAccommodationsRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetGeographicAreasRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetGeographicAreasRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetGeographicAreasRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetGeographicAreasRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetLogicAreasRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetLogicAreasRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetLogicAreasRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetLogicAreasRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetOccupationalRulesRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetOccupationalRulesRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetOccupationalRulesRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetOccupationalRulesRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetRatesListRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetRatesListRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetRatesListRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetRatesListRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetRatesRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetRatesRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetRatesRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GetRatesRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GoogleMaps.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/GoogleMaps.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/HeatedSwimmingPool.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/HeatedSwimmingPool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Heating.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Heating.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/HotelFeatures.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/HotelFeatures.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/HouseCharacteristics.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/HouseCharacteristics.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Image.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Image.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ImageDescriptions.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ImageDescriptions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Images.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Images.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/InternationalizedAccommodation.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/InternationalizedAccommodation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/InternationalizedKinds.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/InternationalizedKinds.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/InternetAccess.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/InternetAccess.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/InternetAccessInRoom.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/InternetAccessInRoom.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/IsAvailableRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/IsAvailableRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/IsAvailableRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/IsAvailableRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ItemAccommodationList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ItemAccommodationList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ItemAllAccommodationList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ItemAllAccommodationList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Kitchen.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Kitchen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Labels.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Labels.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Locality.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Locality.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/LocalityList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/LocalityList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/LocalizationData.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/LocalizationData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Localizer.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Localizer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/LocalizerList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/LocalizerList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Location.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Location.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/LocationDescription.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/LocationDescription.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/LocationDistances.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/LocationDistances.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/LocationViews.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/LocationViews.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/LogicAreasCriteria.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/LogicAreasCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/MasterKind.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/MasterKind.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ModifyBookingRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ModifyBookingRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ModifyBookingRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ModifyBookingRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/NearestPlace.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/NearestPlace.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/NearestPlaces.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/NearestPlaces.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/NoShow.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/NoShow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ObjectFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/ObjectFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Occupants.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Occupants.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/OccupationalRule.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/OccupationalRule.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/OccupationalRuleDays.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/OccupationalRuleDays.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/OnlineStateCriteria.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/OnlineStateCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/OrderCriteria.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/OrderCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Pager.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Pager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Parking.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Parking.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/PaymentDetail.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/PaymentDetail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/PaymentDetails.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/PaymentDetails.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/PaymentMethods.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/PaymentMethods.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/PetsAllowed.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/PetsAllowed.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Price.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Price.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/PriceByType.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/PriceByType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/PriceDetails.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/PriceDetails.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/PriceModifier.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/PriceModifier.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Proximity.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Proximity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/RatePeriod.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/RatePeriod.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/RatesList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/RatesList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/RatingAspect.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/RatingAspect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/RatingAspects.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/RatingAspects.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Region.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Region.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/RegionList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/RegionList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Resort.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Resort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Review.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Review.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Reviews.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Reviews.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Schedule.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Schedule.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Season.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Season.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Service.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Service.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Services.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Services.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SetBookingRQ.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SetBookingRQ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SetBookingRS.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SetBookingRS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SimpleCity.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SimpleCity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SimpleCountry.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SimpleCountry.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SimpleLocality.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SimpleLocality.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SimpleRegion.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SimpleRegion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SingleSupplement.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SingleSupplement.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SpecialService.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SpecialService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SpecialServices.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SpecialServices.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SuccessChanges.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SuccessChanges.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SupplementByAdditionalPerson.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SupplementByAdditionalPerson.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Supplements.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Supplements.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SwimmingPool.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/SwimmingPool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/TVSatellite.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/TVSatellite.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/TitleMultiLanguage.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/TitleMultiLanguage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Towels.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Towels.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/VAT.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/VAT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Views.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Views.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Warning.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/Warning.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/WarningList.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/WarningList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/package-info.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/domain/package-info.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/operation/SoapOperation.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/operation/SoapOperation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/consumer/operation/SoapOperationImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/consumer/operation/SoapOperationImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/controller/SopToResController.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/controller/SopToResController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/soap/utils/GsonUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/soap/utils/GsonUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/soap.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -252,8 +21,18 @@
       <file leaf-file-name="soap.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/soap.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="0">
+              <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -356,6 +135,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -517,8 +310,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/soap.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="39" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/soap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
           <folding />
         </state>
       </provider>
